@@ -3,6 +3,7 @@
 #sudo mkdir --parents /usr/share/games/chasm; sudo mv ~/./Chasm/Chasm/ $_
 #rm -r /usr/share/games/Chasm/
 mkdir ./chasm
+# Chasm: The Rift https://www.moddb.com/games/chasm-the-rift/downloads/chasm-portable
 wget -c "https://www.moddb.com/downloads/mirror/206588/114/328b2055b493686a02c8be5cc64da67d" -O ./chasm/chasm.zip &&
 unzip ./chasm/chasm.zip -d ./chasm/ &&
 cp chasm-linux/run_chasm.sh ./chasm/ &&
