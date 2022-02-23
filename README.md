@@ -2,9 +2,8 @@
 
 ![Chasm](https://1.bp.blogspot.com/-7FgPZxq5ZNI/V81bh90o30I/AAAAAAAAE-w/B8xDIpY-4P885wxxZH1LnZKuanC8kIjHgCPcB/s1600/Chasm.jpg)
 
-To run simply just type in sudo git clone after copying this git URL, then run chasm-linux/inital.sh; this should download everything inside a folder named `./chasm`
-This will also create a shortcut named `Chasm`. I would higly recommend using chown to change the cloned directory otherwise you will be running under root, an example would be `chown user:user chasm-linux/`
-
+To run simply just type in git clone after copying this git URL, then run chasm-linux/inital.sh; this should download everything inside a folder named `./chasm`
+This will also create a shortcut named `Chasm`.
 ### Install Requirements
 
 * PIP
