@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#sudo mkdir --parents /usr/share/games/chasm; sudo mv ~/./Chasm/Chasm/ $_
-#rm -r /usr/share/games/Chasm/
 mkdir ./chasm
 # Chasm: The Rift https://www.moddb.com/games/chasm-the-rift/downloads/chasm-portable
 wget -c "https://sjc7.dl.dbolical.com/dl/2021/01/07/Chasm_Portable.zip?st=BeQVfuej4PXUHByOcrTmmw==&e=1645586079" -O ./chasm/chasm.zip &&
