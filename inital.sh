@@ -1,8 +1,9 @@
 #!/bin/sh
 
-mkdir ./chasm
-# Chasm: The Rift https://www.moddb.com/games/chasm-the-rift/downloads/chasm-portable
-wget -c "https://sjc7.dl.dbolical.com/dl/2021/01/07/Chasm_Portable.zip?st=BeQVfuej4PXUHByOcrTmmw==&e=1645586079" -O ./chasm/chasm.zip &&
+#sudo mkdir --parents /usr/share/games/chasm; sudo mv ~/./Chasm/Chasm/ $_
+#rm -r /usr/share/games/Chasm/
+mkdir ./chasm &&
+gdown --fuzzy https://drive.google.com/file/d/1n_HepDIrfmF04lH5jykpJRJXi-ti6I_2/view -O ./chasm/chasm.zip &&
 unzip ./chasm/chasm.zip -d ./chasm/ &&
 cp chasm-linux/run_chasm.sh ./chasm/ &&
 cp chasm-linux/chasmadd.conf ./chasm/Chasm/DBox/ &&
