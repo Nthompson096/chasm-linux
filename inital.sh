@@ -9,6 +9,5 @@ wget -c "https://ia902806.us.archive.org/13/items/ChasmTheRiftUSA/Chasm%20-%20Th
 unzip ./chasm/chasm-ost.zip -d ./chasm/Chasm/music &&
 cp chasm-linux/run_chasm.sh ./chasm/ &&
 cp chasm-linux/chasmadd.conf ./chasm/Chasm/DBox/ &&
-cp ./chasm/Chasm/music/Chasm.cue ./chasm/Chasm/ &&
 sudo ln -fn ./chasm/run_chasm.sh  /usr/bin/Chasm &&
 sudo chmod +x ./chasm/run_chasm.sh
