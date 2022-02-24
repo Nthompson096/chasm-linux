@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#sudo mkdir --parents /usr/share/games/chasm; sudo mv ~/./Chasm/Chasm/ $_
-#rm -r /usr/share/games/Chasm/
 mkdir ./chasm |
 gdown --fuzzy https://drive.google.com/file/d/1n_HepDIrfmF04lH5jykpJRJXi-ti6I_2/view --continue -O ./chasm/chasm.zip &&
 unzip ./chasm/chasm.zip -d ./chasm/ &&
