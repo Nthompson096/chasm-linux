@@ -5,9 +5,6 @@
 To run simply just type in git clone after copying this git URL, then run chasm-linux/inital.sh; this should download everything inside a folder named `./chasm`
 This will also create a shortcut named `Chasm` and an addon shortchut named `Chasm-Addon`.
 ### Install Requirements
-
-* PIP
 * GIT
-* gdown (pip)
 
-To install gdown simply run `pip install gdown` as a regular user and export the path of gdown as a regular user simply run <br/>`export PATH="$HOME/.local/bin:$PATH"` to export can also do this inside the bash rc file with a text editor. when everything is downloaded you should be able to run the script `inital.sh` successfully; I've also included a remove script to remove the shortcut to chasm and the folder as a complete uninstall.
+**Before running the script** to install Chasm, you can just download the portable zip file off of here https://www.moddb.com/games/chasm-the-rift/downloads/chasm-portable when everything is downloaded you should be able to run the script `inital.sh` successfully; I've also included a remove script to remove the shortcut to chasm and the folder as a complete uninstall.
