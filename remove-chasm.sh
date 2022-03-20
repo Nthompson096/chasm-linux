@@ -1,3 +1,4 @@
 #!/bin/sh
-  sudo rm -r ./chasm &
-	 sudo rm /usr/bin/Chasm &
+  rm -r ../chasm &&
+	  rm /usr/bin/Chasm |
+	  rm /usr/bin/Chasm-Addon
