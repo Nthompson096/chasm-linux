@@ -11,5 +11,5 @@ cp run_chasm.sh ~/chasm/ |
 cp run_addon.sh ~/chasm/ |
 cp addon.conf ~/chasm/Chasm/DBox/ |
 cp chasm.conf ~/chasm/Chasm/DBox/ |
-# Creating shortcuts in /usr/bin, figured it would be easier.
+# Creating shortcuts in /usr/bin, figured it would be easier; will need to use sudo unless if you like doing everything in root.
 sudo sh ./create-short.sh
