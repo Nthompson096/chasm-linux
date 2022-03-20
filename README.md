@@ -7,4 +7,4 @@ This will also create a shortcut named `Chasm` and an addon shortchut named `Cha
 ### Install Requirements
 * GIT
 
-**Before running the script** to install Chasm, you can just download the portable zip file off of here https://www.moddb.com/games/chasm-the-rift/downloads/chasm-portable when everything is downloaded you should be able to run the script `inital.sh` successfully; I've also included a remove script to remove the shortcut to chasm and the folder as a complete uninstall.
+**Before running the script** to install Chasm, you can just download the portable zip file off of here https://www.moddb.com/games/chasm-the-rift/downloads/chasm-portable when everything is downloaded you should be able to run the script `inital.sh` successfully; I've also included a remove script to remove the shortcut to chasm and the folder as a complete uninstall. Be sure to place the zip file inside the cloned directory of chasm-linux and you should be all set.
