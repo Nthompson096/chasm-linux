@@ -10,4 +10,4 @@ This will also create a shortcut named `Chasm` and an addon shortchut named `Cha
 * GIT
 * gdown (pip)
 
-To install gdown simply run `pip install gdown` as a regular user and export the path of gdown as a regular user simply run `export PATH="$HOME/.local/bin:$PATH"` to export can also do this inside the bash rc file with a text editor. when everything is downloaded you should be able to run the script `inital.sh` successfully; I've also included a remove script to remove the shortcut to chasm and the folder as a complete uninstall.
+To install gdown simply run `pip install gdown` as a regular user and export the path of gdown as a regular user simply run <br/>`export PATH="$HOME/.local/bin:$PATH"` to export can also do this inside the bash rc file with a text editor. when everything is downloaded you should be able to run the script `inital.sh` successfully; I've also included a remove script to remove the shortcut to chasm and the folder as a complete uninstall.
