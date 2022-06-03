@@ -24,19 +24,20 @@ done
 
 # let's go ahead and create a directory; ignore the errors.
 # This will fail and stop the script if the zip file is not present.
-if 
-	[ ! -f Chasm_Portable.zip ]; then
-	echo "Chasm Portable doesn't exist; halting."
-	exit
-else
-	[ -f  Chasm_Portable.zip ]
-	unzip ./Chasm_Portable.zip -d /usr/share/games/chasm/ -x "Chasm/*.SAV" "Chasm/*.BAT" "Chasm/*.INI" "Chasm/music/*" "soundtrack mp3s/*" &&
-	chmod +x *.sh &&
-chmod 777 /usr/share/games/chasm/Chasm/* |
-chmod 777 /usr/share/games/chasm/Chasm/EDITDAT/* |
-chmod -R 777 /usr/share/games/chasm/Chasm/ADDON1/*
-
+if
+	[ -f  zips/game/Chasm.zip ]; then
+	zip -F zips/game/Chasm.zip --out zips/game/chasmmaster.zip &&
+	# mkdir /usr/share/games/ &&
+	unzip zips/game/chasmmaster.zip -d /usr/share/games/chasm -x "Chasm/*.SAV" "Chasm/*.BAT" "Chasm/*.INI" "soundtrack mp3s/*.mp3"
 fi
+
+if [[ /usr/share/games/chasm ]]; then
+	chmod 777 /usr/share/games/chasm/Chasm/* &&
+	chmod -R 777 /usr/share/games/chasm/Chasm/EDITDAT &&
+	chmod -R 777 /usr/share/games/chasm/Chasm/ADDON1
+	chmod +x *.sh
+fi
+
 echo -e "Would you like to Download/install the OST for chasm?"
 
 select yn in "Yes" "No"; do
@@ -52,7 +53,7 @@ cp remove-chasm.sh /usr/share/games/chasm |
 cp addon.conf /usr/share/games/chasm/Chasm/DBox/ |
 cp chasm.conf /usr/share/games/chasm/Chasm/DBox/ |
 cp editor.conf /usr/share/games/chasm/Chasm/DBox/ |
-./create-short.sh ;  exit;;
+./create-short.sh ;  break;;
 
 		No ) echo "ok not installing/Downloading the OST for chasm." &&
 cp run_chasm.sh  /usr/share/games/chasm |
