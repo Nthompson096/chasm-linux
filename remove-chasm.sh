@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Says on the tin of the file, will remove the chasm folder. be sure to run sudo.
 
 if [ "$EUID" -ne 0 ];
@@ -25,6 +25,6 @@ if [[ -f /usr/bin/Chasm-Addon ]]; then
 	rm /usr/bin/Chasm-Addon
 fi
 
-if [[ -d /usr/share/games/chasm ]]; then
-	rm -r /usr/share/games/chasm
+if [[ -d .chasm/ ]]; then
+	rm -r .chasm/
 fi
