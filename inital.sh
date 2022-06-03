@@ -52,7 +52,7 @@ cp remove-chasm.sh /usr/share/games/chasm |
 cp addon.conf /usr/share/games/chasm/Chasm/DBox/ |
 cp chasm.conf /usr/share/games/chasm/Chasm/DBox/ |
 cp editor.conf /usr/share/games/chasm/Chasm/DBox/ |
-./create-short.sh ;  break;;
+./create-short.sh ;  exit;;
 
 		No ) echo "ok not installing/Downloading the OST for chasm." &&
 cp run_chasm.sh  /usr/share/games/chasm |
