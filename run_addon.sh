@@ -1,2 +1,2 @@
 #!/bin/sh
-dosbox -conf ./chasm/Chasm/DBox/addon.conf
+dosbox -conf /usr/share/games/chasm/Chasm/DBox/addon.conf
