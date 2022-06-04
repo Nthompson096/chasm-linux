@@ -2,7 +2,7 @@
 
 ![Chasm](https://1.bp.blogspot.com/-7FgPZxq5ZNI/V81bh90o30I/AAAAAAAAE-w/B8xDIpY-4P885wxxZH1LnZKuanC8kIjHgCPcB/s1600/Chasm.jpg)
 
-To run simply just type in git clone after copying this git URL, then run chasm-linux/inital.sh; this should unzip and extract the the chasm soundtrack and create a folder named `$HOME/.chasm/`; This will also create a shortcut named `Chasm` and an addon shortchut named `Chasm-Addon` user `/usr/bin/`, will also create an editor shortcut for you named `Chasm-Edit`; this will be worked on however.
+To run simply just type in git clone after copying this repo URL, then run chasm-linux/inital.sh; this should unzip and extract the the chasm soundtrack and create a folder named `$HOME/.chasm/`; This will also create a shortcut named `Chasm` and an addon shortchut named `Chasm-Addon` user `/usr/bin/`, will also create an editor shortcut for you named `Chasm-Edit`; this will be worked on however.
 
 ### Install Requirements
 
