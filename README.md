@@ -9,7 +9,7 @@ To run simply just type in git clone after copying this repo URL, then run chasm
 * GIT
 * DOS-BOX
 
-You should be able to run `inital.sh`successfully with the command `sh inital.sh`; I've also included a removal script to remove the shortcut to 
+You should be able to run `inital.sh` successfully with the command `sh inital.sh`; I've also included a removal script to remove the shortcut to 
 chasm and the folder as a complete uninstall; you'll need to run sudo. Be sure to place the zip file inside 
 the cloned directory of chasm-linux and you should be all set, be sure to install dosbox before running 
 Chasm.
