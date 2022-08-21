@@ -25,6 +25,10 @@ if [[ -f /usr/bin/Chasm-Addon ]]; then
 	rm /usr/bin/Chasm-Addon
 fi
 
+if [[ -f /usr/bin/Chasm-Edit ]]; then
+	rm /usr/bin/Chasm-Edit
+fi
+
 if [[ -d .chasm/ ]]; then
 	rm -r .chasm/
 fi
